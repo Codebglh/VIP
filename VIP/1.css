@@ -1,0 +1,39 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #f0f8ff;
+	display: flex;
+	width: 90px;
+	height: 100px;
+}
+
+ul li {
+	width: 90px;
+	height: 30px;
+	background-color: #dddddd;
+	text-align: center;
+	color: #7979ff;
+	line-height:250%;
+	border-radius: 2px;
+	outline: 0;
+	border: 1px;
+	margin: 1px;
+	border-radius: 6px;
+}
+
+ul li:hover {
+	background: rgba(201, 255, 214, 0.1);
+	color: coral;
+	border-radius: 15%;
+	justify-content: center;
+	align-items: center;
+}
+#update{
+	background:#00ffff
+}
+#use_default{
+	background-color: #00ffff;
+}
