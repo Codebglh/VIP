@@ -6,12 +6,12 @@
 body {
 	background-color: #f0f8ff;
 	display: flex;
-	width: 90px;
+	width: 190px;
 	height: 100px;
 }
 
 ul li {
-	width: 90px;
+	width: 190px;
 	height: 30px;
 	background-color: #dddddd;
 	text-align: center;
@@ -32,8 +32,14 @@ ul li:hover {
 	align-items: center;
 }
 #update{
-	background:#00ffff
+	width: 90px;
+	height: 30px;
+	background:#00ffff;
+	float: left;
 }
 #use_default{
+	width: 90px;
+	height: 30px;
 	background-color: #00ffff;
+	float: right;
 }

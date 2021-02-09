@@ -89,7 +89,7 @@ const fetchFromUrl = url => {
 				fetch(url).then((response) => {
 					$('#update').text("更新成功");
 					return response.json();
-				}).catch((response) => $('#update').text("更新失败，可能需要翻墙")).then(listjson => resolve(listjson['list']));
+				}).catch((response) => $('#update').text("更新失败")).then(listjson => resolve(listjson['list']));
 			}
 		});
 	});
