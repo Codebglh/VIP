@@ -17,20 +17,16 @@
 
 - [Linux](https://www.google.cn/chrome/thank-you.html?statcb=0&installdataindex=empty&defaultbrowser=0#)
 
-######         B.打开拓展程序  <img src="/Users/bgcde/Library/Application Support/typora-user-images/image-20210210180001487.png" alt="image-20210210180001487"  />
+######      B.打开拓展程序  
 
 ######      C.打开开发者模式
 
-![截屏2021-02-10 下午6.00.37的副本](/Users/bgcde/Desktop/截屏2021-02-10 下午6.00.37的副本.png)
+######      D.从本项目克隆  或者[下载](https://ghproxy.com/https://github.com/Codebglh/VIP/archive/main.zip)并解压
 
-###### D.从本项目克隆  或者[下载](https://ghproxy.com/https://github.com/Codebglh/VIP/archive/main.zip)并解压
+######      E.加载以解压的拓展程序
+ 
+######      F.确认拓展已经启用
+ 
+######      G.在此处打开拓展。
 
-E.加载以解压的拓展程序
-
-![image-20210210180906715](/Users/bgcde/Library/Application Support/typora-user-images/image-20210210180906715.png)
-
-F.确认拓展已经启用![image-20210210181023458](/Users/bgcde/Library/Application Support/typora-user-images/image-20210210181023458.png)
-
-G.在此处打开拓展。![截屏2021-02-10 下午6.10.47](/Users/bgcde/Desktop/截屏2021-02-10 下午6.10.47.png)
-
-H.进入视频网站点击解析即可使用。
+######      H.进入视频网站点击解析即可使用。
