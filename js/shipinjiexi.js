@@ -129,7 +129,7 @@ const createApiElements = apis => {
 					active: true,
 					currentWindow: true
 				}, (tabs) => {
-					window.open(this.dataset.url + tabs[0].url);
+					window.open(this.dataset.url );
 				});
 			};
 		}
