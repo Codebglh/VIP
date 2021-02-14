@@ -6,7 +6,6 @@
 		<title>VIP视频全网解析</title>
 		<meta name="keywords" content="" />
 		<meta name="description" content="" />
-		<meta name=viewport content="width=device-width,anicital-scale=1">
 		<link rel="stylesheet" href="css/bootstrap.css" />
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/base64.min.js"></script>
@@ -61,7 +60,7 @@
 
 	<button type='button' class='alertBoxBut' onclick="javascript:location.href=''">×</button>
 
-	<div style='padding:0px 20px 3px;'><h4 style='font-size:14px;'>如视频无法正常播放，请更换线路重新解析。&nbsp;&nbsp;<a href="" target="_blank"><b>使用教程</b></a>・<a href="" target="_blank"><b>打赏</b></a></h4></div>
+	<div style='padding:0px 20px 3px;'><h4 style='font-size:14px;'>如视频无法正常播放，请更换线路重新解析。&nbsp;&nbsp;<a href="options.html" target="_blank"><b>使用教程</b></a>・<a href="" target="_blank"><b>打赏</b></a></h4></div>
 		<!--视频box区域-->
 
 	<iframe id="palybox" src="https://z1.m1907.cn/?jx=" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen="true" allowtransparency="true" name='jx_play' ></iframe>
@@ -145,28 +144,5 @@
 	</div>
 	<script type="text/javascript" src="js/tv-beipy.js" ></script>
 	<script src="js/windowScroll.js"></script>
-	<script>
-		var jx_url= "";
-		$('#url').val(jx_url);
-		$(document).ready(function() { 
-			//alert($(window).height()); //浏览器时下窗口可视区域高度
-			var iframeHeight = $(window).height();
-			var playboxheight = iframeHeight*0.7;
-			var alertBoxTop = iframeHeight*0.04;
-			//alert(alertBoxTop);
-			 $("#palybox").height(playboxheight);
-			 $("#alertBox").css('top',alertBoxTop);
-			} 
-		) 
-	</script>
 	</body>
-	<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?a2f7245c0b3fcd993003b1d9182d0a82";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
 </html>

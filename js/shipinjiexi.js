@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	const api_file_url = "https://raw.githubusercontent.com/Codebglh/img/master/img/imggenxin.json";
+	const api_file_url = "https://ghproxy.com/https://raw.githubusercontent.com/Codebglh/img/master/img/imggenxin.json";
 	const default_player_list = {
 		"list": [{"name":"纯净1","url":"https://z1.m1907.cn/?jx="},
 		{"name":"纯净2","url":"https://jx.618g.com/?url="},
