@@ -3,7 +3,13 @@
   "description": "在各大视频网站VIP解析免费观看",
   "version": "1.0",
   "manifest_version": 2,
-  "permissions": [ "tabs","storage"],
+  "permissions": [
+    "tabs", 
+    "storage", 
+    "contextMenus",
+    "http://*/*",
+    "https://*/*"
+  ],
   "action": {
     "default_popup": "shipinjiexi.html",
     "default_icon": {
