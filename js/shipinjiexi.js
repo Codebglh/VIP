@@ -130,7 +130,7 @@ const createApiElements = apis => {
 					active: true,
 					currentWindow: true
 				}, (tabs) => {
-					window.open("jiexi.html")
+					window.open("https://codebglh.github.io/")
 					// window.open(this.dataset.url + tabs[0].url);
 				});
 			};
