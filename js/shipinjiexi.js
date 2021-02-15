@@ -120,18 +120,21 @@ const createApiElements = apis => {
 		}
 		for (let i in apis) {
 			let li = document.createElement("li");
-			ul.appendChild(li);
+            var a = document.createElement('a');
+			// li.appendChild(a);
+            ul.appendChild(li);
 			li.innerHTML = apis[i].name;
 			li.setAttribute("data-url", apis[i].url);
-
 			li.onclick = function() {
 				chrome.tabs.query({
 					active: true,
 					currentWindow: true
 				}, (tabs) => {
-					window.open(this.dataset.url + tabs[0].url);
+					window.open("jiexi.html")
+					// window.open(this.dataset.url + tabs[0].url);
 				});
 			};
+			// console.log(this.dataset.url);
 		}
 		save(apis).then(apis => resolve(apis));
 	});
